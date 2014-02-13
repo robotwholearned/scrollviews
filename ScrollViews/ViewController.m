@@ -43,7 +43,6 @@
     [self.scrollView addGestureRecognizer:twoFingerTapRecognizer];
     
 }
-
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
@@ -60,13 +59,11 @@
     
     [self centerScrollViewContents];
 }
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 -(void)centerScrollViewContents
 {
     CGSize boundsSize = self.scrollView.bounds.size;
@@ -97,5 +94,13 @@
 -(void)scrollViewTwoFingerTapped:(UITapGestureRecognizer*)recognizer
 {
     [self.scrollView setZoomScale:MAX((self.scrollView.zoomScale /1.5f), self.scrollView.minimumZoomScale) animated:YES];
+}
+-(UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return self.imageView;
+}
+-(void)scrollViewDidZoom:(UIScrollView *)scrollView
+{
+    [self centerScrollViewContents];
 }
 @end
