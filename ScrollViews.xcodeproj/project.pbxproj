@@ -22,6 +22,12 @@
 		F0ABE7AC18AD42F400D1B5DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ABE78B18AD42F400D1B5DA /* UIKit.framework */; };
 		F0ABE7B418AD42F400D1B5DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0ABE7B218AD42F400D1B5DA /* InfoPlist.strings */; };
 		F0ABE7B618AD42F400D1B5DA /* ScrollViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0ABE7B518AD42F400D1B5DA /* ScrollViewsTests.m */; };
+		F0ABE7D218AD56BD00D1B5DA /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = F0ABE7CC18AD56BD00D1B5DA /* photo1.png */; };
+		F0ABE7D318AD56BD00D1B5DA /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = F0ABE7CD18AD56BD00D1B5DA /* photo2.png */; };
+		F0ABE7D418AD56BD00D1B5DA /* photo3.png in Resources */ = {isa = PBXBuildFile; fileRef = F0ABE7CE18AD56BD00D1B5DA /* photo3.png */; };
+		F0ABE7D518AD56BD00D1B5DA /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = F0ABE7CF18AD56BD00D1B5DA /* photo4.png */; };
+		F0ABE7D618AD56BD00D1B5DA /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = F0ABE7D018AD56BD00D1B5DA /* photo5.png */; };
+		F0ABE7D718AD56BD00D1B5DA /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = F0ABE7D118AD56BD00D1B5DA /* slow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,12 @@
 		F0ABE7B118AD42F400D1B5DA /* ScrollViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewsTests-Info.plist"; sourceTree = "<group>"; };
 		F0ABE7B318AD42F400D1B5DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0ABE7B518AD42F400D1B5DA /* ScrollViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewsTests.m; sourceTree = "<group>"; };
+		F0ABE7CC18AD56BD00D1B5DA /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
+		F0ABE7CD18AD56BD00D1B5DA /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		F0ABE7CE18AD56BD00D1B5DA /* photo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo3.png; sourceTree = "<group>"; };
+		F0ABE7CF18AD56BD00D1B5DA /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
+		F0ABE7D018AD56BD00D1B5DA /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
+		F0ABE7D118AD56BD00D1B5DA /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +126,7 @@
 		F0ABE78D18AD42F400D1B5DA /* ScrollViews */ = {
 			isa = PBXGroup;
 			children = (
+				F0ABE7D818AD56C700D1B5DA /* photos */,
 				F0ABE79618AD42F400D1B5DA /* AppDelegate.h */,
 				F0ABE79718AD42F400D1B5DA /* AppDelegate.m */,
 				F0ABE79918AD42F400D1B5DA /* Main_iPhone.storyboard */,
@@ -153,6 +166,19 @@
 				F0ABE7B218AD42F400D1B5DA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0ABE7D818AD56C700D1B5DA /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				F0ABE7CC18AD56BD00D1B5DA /* photo1.png */,
+				F0ABE7CD18AD56BD00D1B5DA /* photo2.png */,
+				F0ABE7CE18AD56BD00D1B5DA /* photo3.png */,
+				F0ABE7CF18AD56BD00D1B5DA /* photo4.png */,
+				F0ABE7D018AD56BD00D1B5DA /* photo5.png */,
+				F0ABE7D118AD56BD00D1B5DA /* slow.png */,
+			);
+			name = photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +257,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0ABE7D218AD56BD00D1B5DA /* photo1.png in Resources */,
+				F0ABE7D418AD56BD00D1B5DA /* photo3.png in Resources */,
 				F0ABE79E18AD42F400D1B5DA /* Main_iPad.storyboard in Resources */,
+				F0ABE7D518AD56BD00D1B5DA /* photo4.png in Resources */,
 				F0ABE7A318AD42F400D1B5DA /* Images.xcassets in Resources */,
 				F0ABE79B18AD42F400D1B5DA /* Main_iPhone.storyboard in Resources */,
+				F0ABE7D718AD56BD00D1B5DA /* slow.png in Resources */,
 				F0ABE79218AD42F400D1B5DA /* InfoPlist.strings in Resources */,
+				F0ABE7D318AD56BD00D1B5DA /* photo2.png in Resources */,
+				F0ABE7D618AD56BD00D1B5DA /* photo5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +506,7 @@
 				F0ABE7BB18AD42F400D1B5DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0ABE7BC18AD42F400D1B5DA /* Build configuration list for PBXNativeTarget "ScrollViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +515,7 @@
 				F0ABE7BE18AD42F400D1B5DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
